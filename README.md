@@ -1,4 +1,6 @@
 Testing SpringBoot Controller using TestContainer and TestRestTemplate
+
+
 By default, springbootTest spings up an embedded H2 inmemory database, which doesn't replicate the DBs used in realtime production environments.
 
 TestContainers gives us the features to spin a docker container running our preferrable traditional DBs and Autoconfigures the db running in the configure with the test environment.
